@@ -438,7 +438,7 @@ export default function LoginPage() {
                 <li>Set Site URL to your deployed URL</li>
                 <li>Refresh this page and login</li>
               </ol>
-              <div className="mt-3 flex space-x-2">
+              {/* <div className="mt-3 flex space-x-2">
                 <button
                   onClick={() => window.open('https://app.supabase.com/project/_/auth/users', '_blank')}
                   className="text-xs bg-yellow-100 text-yellow-800 px-3 py-1.5 rounded hover:bg-yellow-200 border border-yellow-300"
@@ -454,7 +454,7 @@ export default function LoginPage() {
                 >
                   Open Your Project
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
