@@ -1,0 +1,9 @@
+{
+  "name": "create-task-edge-function",
+  "version": "1.0.0",
+  "description": "Supabase Edge Function for creating tasks",
+  "scripts": {
+    "dev": "supabase functions serve create-task --env-file ./supabase/.env.local",
+    "deploy": "supabase functions deploy create-task --no-verify-jwt"
+  }
+}
