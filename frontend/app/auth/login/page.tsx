@@ -312,7 +312,7 @@ export default function LoginPage() {
                     setEmail(e.target.value)
                     setAutoFilled(false)
                   }}
-                  className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-50 transition-all"
+                  className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-500 transition-all text-gray-900"
                   placeholder="you@example.com"
                   required
                   disabled={loading}
@@ -328,7 +328,7 @@ export default function LoginPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-900 mb-2">
                 Password
               </label>
               <div className="relative">
@@ -344,7 +344,7 @@ export default function LoginPage() {
                     setPassword(e.target.value)
                     setAutoFilled(false)
                   }}
-                  className="block w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-50 transition-all"
+                  className="block w-full pl-10 pr-10 py-3 border border-gray-900 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-800 focus:border-blue-800 disabled:bg-gray-500 transition-all text-gray-900"
                   placeholder="••••••••"
                   required
                   disabled={loading}
